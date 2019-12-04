@@ -1,0 +1,6 @@
+name: BurnToGravel
+version: ${project.version}
+main: de.rubenmaurer.burntogravel.BurnToGravel
+api-version: 1.13
+authors: [Schrotty]
+description: Replace burned blocks with gravel
