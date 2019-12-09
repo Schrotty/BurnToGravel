@@ -7,6 +7,7 @@ public final class BurnToGravel extends JavaPlugin {
     @Override
     public void onEnable() {
         getServer().getPluginManager().registerEvents(new BlockBurnedListener(), this);
+        getServer().getPluginManager().registerEvents(new BlockFadeListener(), this);
     }
 
     @Override
